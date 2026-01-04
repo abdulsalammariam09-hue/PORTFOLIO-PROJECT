@@ -1,7 +1,7 @@
 ##################################
 #### Pre-treatment of EC data ####
 ##################################
-#Author: P. Buysse
+
 
 #Objectives:
 # 1/ QC filtering of data: 
@@ -646,4 +646,5 @@ save(CombinedData.F,file=paste0("FR-Ramp-Results_2_",year,"_",Licor_system,".Rda
 #save in CSV format
 
 write.csv(CombinedData.F, "C:/Users/mabdulsalam/Downloads/essaie/FilledRamp.F.csv", row.names = FALSE)
+
 
